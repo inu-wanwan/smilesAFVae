@@ -1,5 +1,15 @@
-"config": {
-  "commitizen": {
-    "path": "cz-conventional-changelog"
+{
+  "name": "smilesafvae",
+  "version": "1.0.0",
+  "description": "A project description",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
