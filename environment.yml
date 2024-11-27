@@ -1,0 +1,23 @@
+name: smilesAFVae
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - rdkit
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-geometric
+  - pip
+  - pip:
+      - tqdm
+      - jupyter
+      - torchsummary
+      - ipykernel
+      - hydra-core
